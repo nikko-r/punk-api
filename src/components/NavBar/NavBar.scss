@@ -1,9 +1,10 @@
 .navbar {
+    z-index: 2;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100vw;
-    position: fixed;
     background-color: #272727;
     padding: 1rem;
     .navbar__toggle-sidebar {
