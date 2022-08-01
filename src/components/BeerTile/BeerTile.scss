@@ -1,0 +1,19 @@
+.beer-tile {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 25rem;
+    height: 37rem;
+    margin: 2rem;
+    padding: 1.5rem;
+    .beer-tile__image {
+        height: 200px;
+    }
+     :hover {
+        transform: scale(1.1);
+        transition: all 0.5s ease-in-out;
+    }
+    &:hover {
+        transform: scale(1.1);
+        transition: all 0.5s ease-in-out;
+    }
+}

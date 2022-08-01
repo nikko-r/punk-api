@@ -1,6 +1,6 @@
 import "./NavBar.scss";
 
-const NavBar = () => {
+const NavBar = ({ searchBoxInput, handleInput }) => {
   return (
     <div className="navbar">
       <div className="navbar__toggle-sidebar">
@@ -12,6 +12,8 @@ const NavBar = () => {
         className="navbar__searchbar"
         type="text"
         placeholder="🔎 Search..."
+        value={searchBoxInput}
+        onInput={handleInput}
       ></input>
     </div>
   );

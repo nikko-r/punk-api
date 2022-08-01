@@ -12,6 +12,7 @@ const BeersContainer = ({ beersArr }) => {
           desc={object.description}
           abv={object.abv}
           date={object.first_brewed}
+          id={object.id}
         />
       ))}
     </div>
